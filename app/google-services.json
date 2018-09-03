@@ -1,0 +1,74 @@
+{
+  "project_info": {
+    "project_number": "909569397499",
+    "firebase_url": "https://olatoye-4843e.firebaseio.com",
+    "project_id": "olatoye-4843e",
+    "storage_bucket": "olatoye-4843e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909569397499:android:089365939210ba84",
+        "android_client_info": {
+          "package_name": "com.fiszy.qrcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909569397499-0o33d2gda28g4ludm9ubgqi0ff3avfru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLVCugfUzBcKBmNpmVhQqAXDFCJ6o3RHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-8102358964047123~3055505349"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909569397499:android:1f3e13de5f58b9ca",
+        "android_client_info": {
+          "package_name": "com.ots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909569397499-0o33d2gda28g4ludm9ubgqi0ff3avfru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLVCugfUzBcKBmNpmVhQqAXDFCJ6o3RHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

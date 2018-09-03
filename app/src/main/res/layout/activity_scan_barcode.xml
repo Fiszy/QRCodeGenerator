@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanBarcode">
+
+    <LinearLayout
+        android:id="@+id/topside2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/linkimg2"
+                android:layout_marginLeft="18dp"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="?android:attr/listPreferredItemHeight"
+                android:src="@drawable/ic_link"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/weblink2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weblink"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="1dp"/>
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:id="@+id/datetext"-->
+
+                <!--android:layout_marginLeft="18dp"-->
+                <!--/>-->
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/mtvresult"
+                    android:layout_width="match_parent"
+                    android:text="tryyyyyy"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content" android:layout_margin="10dp"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/openlink2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="?android:attr/listPreferredItemHeight"
+                android:src="@drawable/ic_open"
+                android:id="@+id/linkopen2"
+                android:background="@color/white"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Open Link" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="19dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Click the button below to start"
+        android:id="@+id/start"/>
+
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/myadView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="155dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8102778964007123/8975838446"></com.google.android.gms.ads.AdView>
+
+    <Button
+        android:id="@+id/btnScan"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#4CAF50"
+        android:padding="16dp"
+        android:text="Scan Barcode or QR code"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold" />
+
+</RelativeLayout>

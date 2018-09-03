@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key="my_pref"
+        android:title="Sound"
+        android:summary="Do you want sound"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="my_url"
+        android:summary="@string/pref_description_url"
+        android:title="@string/pref_url" />
+
+    <CheckBoxPreference
+        android:key="copytext"
+        android:title="Copy to clipboard"
+        android:summary="Automatic copy to clipboard after scan"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="notif"
+        android:title="Show Notification"
+        android:summary="Do you want a push notification to appear after creating QR Code?"
+        android:defaultValue="true" />
+
+    <Preference android:title="About us" >
+        <intent android:action="android.intent.action.VIEW"
+            android:data="http://fiszy.paavion.com" />
+    </Preference>
+
+</PreferenceScreen>
